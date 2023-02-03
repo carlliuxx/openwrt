@@ -19,6 +19,10 @@ on:
         required: false
         default: 'false'
 
+  schedule:
+   - cron: 50 9 * * 5
+
+
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
@@ -188,5 +192,3 @@ jobs:
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-schedule:
-   - cron: 0 28 9 * * 

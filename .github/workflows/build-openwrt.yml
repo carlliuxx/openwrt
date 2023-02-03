@@ -20,7 +20,7 @@ on:
         default: 'false'
 
   schedule:
-   - cron: 50 9 * * 5
+   - cron: 52 9 * * 6
 
 
 env:

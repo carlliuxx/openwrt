@@ -189,4 +189,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 schedule:
-   - cron: 0 15 17 * * ? 
+   - cron: 0 20 17 * *
